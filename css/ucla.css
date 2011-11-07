@@ -1,0 +1,247 @@
+/* 
+    Document   : ucla
+    Created on : Nov 7, 2011, 1:31:05 PM
+    Author     : dannyjoris
+    Description: General ucla style sheet
+*/
+
+/* General */
+
+body
+{
+  margin: 0px;
+  
+  font-family: Arial;
+  font-size: 9pt;
+  font-style: normal;
+  line-height: normal;
+  font-weight: normal;
+
+  background-color: #6d6d6d;  
+}
+
+#header-group,
+#main
+{
+  background-color: #fff;
+  padding: 0px 0px 1.5em 0px;
+}
+
+
+
+/* Header */
+
+#header-site-info,
+#header-site-info-inner
+{
+  float: left;
+  width: 100%;
+}
+
+#header-site-info
+{
+  height: 139px;
+  margin: 0px 0px 0px 0px;
+  background: url('../images/banner.gif') center top no-repeat transparent;
+}
+
+#header-site-info-inner
+{
+  position: relative;
+  height: 139px;
+  margin: 0px 0px 0px 0px;
+}
+
+
+/* Titles */
+
+#title-wrap
+{
+  position: absolute;
+  bottom: 5px;
+  left: 85px;
+  
+  height: 23px;
+}
+
+.main-title
+{
+  float: left;
+  width: 149px;
+  height: 23px;
+  
+  background: url('../images/hotspot.png') center top no-repeat transparent;
+  
+  text-indent: -999em;
+  overflow: hidden;
+}
+
+.local-title
+{
+  float: left;
+  width: 151px;
+  height: 18px;
+  margin: 10px 0px 0px 10px;
+  
+  background: url('../images/digitalcollections-small.png') left top no-repeat transparent;
+  
+  text-indent: -999em;
+  overflow: hidden;
+}
+
+
+/* Islandora Solr Search Simple */
+
+#block-islandora_solr_search-simple
+{
+  float: right;
+  width: 250px;
+  height: 25px;
+  margin: 0px;
+  
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+#block-islandora_solr_search-simple .inner
+{
+  margin: 0px 0px 0px 0px;
+}
+
+#block-islandora_solr_search-simple .form-submit
+{
+  float: right;
+/*  height: 22px;*/
+  margin: 2px 0px 2px 2px;
+  padding: 2px 5px 3px;
+  
+  background: url('../images/silverbar.gif') left top repeat-x transparent;
+  border: 1px outset #ccc;
+  color: #666;
+  cursor: pointer;
+  font-weight: bold;
+
+}
+
+#edit-islandora-simple-search-query-wrapper
+{
+  float: left;
+  width: 195px;
+  margin: 0px 0px 0px 0px;
+  
+}
+
+#block-islandora_solr_search-simple input.form-text
+{
+  height: 11px;
+  margin: 2px 0px;
+}
+
+
+
+/* primary links */
+
+#primary-menu
+{
+  margin: 0px 0px 0px 0px;
+}
+
+#primary-menu-inner
+{
+  float: left;
+  width: 100%;
+  height: 28px;
+  
+  margin: 0px 0px 0px 0px;
+  
+  background: url('../images/silverbar.gif') center bottom repeat-x #949494;
+  
+}
+
+#primary-menu ul li
+{
+  border-left: 1px dotted #fff;
+}
+
+#primary-menu ul li.last
+{
+  border-right: 1px dotted #fff;
+}
+
+#primary-menu ul li ul li
+{
+  border: 0px;
+}
+
+#primary-menu a
+{
+  height: 23px; /* 28px */
+  padding: 5px 25px 0px 15px;
+  margin: 0px 0px 0px 0px;
+  
+  color: #fff;
+}
+
+
+#primary-menu a:hover
+{
+  background: url('../images/silverbar-hover.gif') center bottom repeat-x #6d6d6d;
+}
+
+#primary-menu li ul a
+{
+  color: #6D6D6D;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+
+#primary-menu li ul a:hover
+{
+  background: #6D6D6D;
+  color: #fff;
+}
+
+#primary-menu li ul
+{
+  width: 175px;
+  top: 28px;
+}
+
+#primary-menu li ul ul
+{
+  left: 175px;
+  top: 0px;
+}
+
+
+/* Breadcrumb */
+
+#breadcrumbs
+{
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  background-color: #efefef;
+}
+
+.breadcrumb
+{
+  padding: 5px 0px 5px 3px;
+  color: #333;
+}
+
+.breadcrumb a
+{
+  margin: 0px 2px 0px 2px;
+  color: #666;
+  font-size: 10px;
+  font-family: verdana, helvetica, sans-serif;
+  font-weight: normal;
+  text-decoration: underline;
+}
+.breadcrumb a:hover
+{
+  color: #333;
+  text-decoration: underline;
+}

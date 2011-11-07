@@ -1,0 +1,389 @@
+
+/* CSS Document */
+/* minor edit by lisa mcaulay 29-09-2009 */
+#content td {
+/*
+font-family: arial,helvetica,san-serif; 
+font-size:10pt;
+*/
+} 
+/* li {font-size: 12px;} */
+sup {font-size:13px;text-decoration:none;}
+hr {size:1;}
+
+B {
+	line-height: 1px;
+}
+body {
+    font-family: Arial;
+	font-size: 9pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	margin: 0px;
+	background-color: #6d6d6d;  
+}
+.formbutton{
+	position: relative;
+	top: 2px;
+	top: auto;
+	cursor:pointer;
+	border:outset 1px #ccc;
+	background:#999;
+	color:#666;
+	font-weight:bold;
+	padding: 1px 2px;
+	background: url(/images/bar/silverbar.gif) repeat-x left top;
+}
+.formbutton:hover{
+	background:url(/images/bar/silverbarRO.gif) repeat-x left top;
+}
+#wrapper {
+	position:relative;
+	top: 0px;
+	width: 962px;
+	text-align: left;
+	margin: auto;
+	display: block;
+}
+#abstracted_menu {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	float: none;
+}
+#banner {
+	position:relative;
+	width: 100%;
+	text-align: right;
+	background-image: url(../images/banner6-h.gif);
+	background-color: #536895;
+	background-repeat:no-repeat;
+	background-position:left;
+	height:139px;
+	float: left;
+}
+/* added by Lisa 9/24/09 */
+#banner2 {
+	position:relative;
+	width: 100%;
+	text-align: right;
+	background-color: #536895;
+	background-repeat:no-repeat;
+	background-position:left;
+	height:139px;
+	float: left;
+}
+/* added by Lisa 9/24/09 */
+#image_banner {
+	position:relative;
+	z-index:1;
+}
+
+#hotspot {
+	position: absolute;
+	left: 87px;
+	top: 112px;
+	float: none;
+	height: 44px;
+	width: 157px;
+	text-align: left;
+	z-index: 20;
+}
+#search_form {
+	position: absolute;
+	right: -2px;
+	float: none;
+	margin-top:114px;
+	z-index: 20;
+}
+/* added by lisa 9/24/09 for testing*/
+#search_form2 {
+	position: absolute;
+	right: -2px;
+	float: none;
+	margin-top:11px;
+	z-index: 21;
+}
+#menu_bar {
+	position: relative;
+	width: 100%;
+	background-color: #536895;
+	float: left;
+}
+#content {
+	position: relative;
+	width: 100%;
+	margin: auto;
+	background-color: #ffffff;
+	text-align: left;
+	float: left;
+	z-index: 1; 
+	/*background-image:url(../images/cornerpieceCircles.gif);*/
+	background-repeat: no-repeat;
+}
+.content2{
+	position: relative;
+	width: 100%;
+	margin: auto;
+	background-color: #ffffff;
+	text-align: left;
+	float: left;
+	z-index: 1; 
+	/*background-image:url(../images/cornerpieceCircles.gif);*/
+	background-repeat: no-repeat;
+}
+.center_content {
+	position: relative;
+	width: 80%;
+	margin: auto;
+	float: none;
+}
+#center {
+	position: relative;
+	background-color: #ffffff;
+	width: 100%;
+	float: left;
+	/*background-image: url(../images/roundedcorner.png);
+	background-position: bottom left;
+	background-repeat: no-repeat;*/
+}
+#splash_page {
+	position: relative;
+	float: left;
+	width: 100%;
+	margin-top: 15px;
+	border-left: #444444 2px solid;
+	border-top: #444444 2px solid;
+	text-align: left;
+}
+#left_column {
+	position: relative;
+	float: left;
+	width: 39%;
+	height: 100%;
+	text-align: left;
+}
+#right_column {
+	position: relative;
+	float: right;
+	width: 60%;
+	height: 100%;
+	text-align: left;
+	/*border-left: #000000 1px solid; dividing center line*/
+	margin-top: 0;
+	padding-left: 5px;
+}
+.left_box {
+	position: relative;
+	float: left;
+	width: 90%;
+	text-align: left;
+	margin-left: 10px;
+	margin-top: 1em;
+}
+.right_box {
+	position: relative;
+	float: right;
+	margin-right: 10px;
+	width:90%;
+	text-align: right;
+}
+.img_right {
+	position: relative;
+	float: right;
+	margin-left: 8px;
+	
+}
+.img_left {
+	position: relative;
+	float: left;
+	margin-right: 8px;
+}
+.img_center {
+	position: relative;
+	float: left;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+.text_left {
+	position: relative;
+	float: left;
+	text-align: left;
+	width: 75%;
+
+}
+#roundCornerTop {
+	position: absolute;
+	float: none;
+	margin-right: 0;
+	left:0;
+	top:0;
+}
+
+/* added by Lisa */
+.grant_proposal_narrative {
+            font-size: 12px;
+            text-align:justify;
+}
+/* end added by Lisa */
+
+/*-----------------------------search boxes-------------------*/
+.inSearch {
+	background: #dddddd;
+	width: 450px;
+	height: 200px;
+	overflow: scroll;
+	border: #444444 2px solid;
+	/*margin: 10px;*/
+	margin-top: 1px;
+	margin-bottom: 1px;
+	margin-left: 0px;
+	float: left;
+}
+.swap_title{
+/*	width:450px;*/
+	position: relative;
+	float: left;
+	overflow: hidden;
+	background: #dddddd;
+/*	border: #444444 2px solid;*/
+	border-bottom: none;
+	color:#996600;
+	border: black 1px double;
+	width: 448px;
+}
+.swap_title p {
+	display: inline;
+	padding-left: 2px;
+	font-size: 14px;
+}
+.selection_entry {
+	border-bottom: #444444 1px solid;
+	background-color: #dddddd;
+	width: 440px;
+	*margin-top: 1px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+}
+.selection_entry p {
+	display: inline;
+	text-decoration: none;
+	font-size: 10px;
+	color: #000000;
+}
+.selection_entry p:hover {
+	background: #eeeeee;
+}
+.cleargroup {
+
+}
+/*------------------------------------------------------------*/
+/*http://examples.codecharge.com/CCSExamplePack2/HorizontalCSSMenu/HCSSMenu_desc.php*/
+#menu {
+	position: relative;
+	top: 0;
+	left: 0;
+	float: left;
+	width: 100%;
+	background: /*#94b9e8*/ url(../images/bar/silverbar.gif) repeat-x bottom left;
+	z-index: 400;
+}
+
+#nav, #nav ul {
+	/*width: 14em;
+	float: left;*/
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	list-style-type:none;
+    list-style-position:outside;
+    position:relative;
+    line-height:1.5em;
+
+}
+
+#nav li { /* all list items */
+	float: left;
+	position: relative;
+	width: 14em;
+	border-left: white 1px dotted;
+}
+
+#nav li ul {/* second-level lists */
+	position: absolute;
+	display: block; 
+	float: left;
+	top: 2em;
+    left: 0;
+}
+
+#nav li>ul {/* to override top and left in browsers other than IE */
+	top: auto;
+	left: 0;
+	}
+
+#nav li ul li ul  {/* third-level lists */
+	position: absolute;
+	display: block; 
+	top: 0;
+    left: 14em;
+}
+
+/* Fix IE. Hide from IE Mac \*/
+* html #nav ul li { float: left; height: 1%; }
+* html #nav ul li a { height: 1%; }
+/* End */
+
+#nav li:hover ul { display: block; }
+
+#nav li:hover>ul { visibility:visible; }
+
+#nav ul { visibility:hidden; }	
+
+/* Make-up syles */
+#nav ul, li {
+    margin: 0 0 0 0; 
+}
+
+/* Styles for Menu Items */
+#nav li a {
+	display: block;
+	text-decoration: none;	
+	background: #536895;  /*IE6 Bug */
+	color: #fff;
+	padding: 5px;
+	/*border: 1px solid #ccc;*/
+}
+/* Hover Styles */
+#nav li a:hover { 
+	color: #fff; 
+	background: #536895; 
+} 
+
+/* Sub Menu Styles */
+#nav li ul a {
+	text-decoration: none;
+	color: #6d6d6d;
+	background: #fff; /* IE6 Bug */
+	border: 1px solid #ccc;
+    padding: 5px; 
+} 
+
+/* Sub Menu Hover Styles */
+#nav li ul a:hover { 
+	color: #fff; 
+	background: #6d6d6d; 
+} 
+
+/* Icon Styles  #nav li a.submenu {background:#94b9e8 url("v_arrow.gif") no-repeat right; } this one has an arrow*/
+#nav li a.submenu {background:url(../images/bar/silverbar.gif) repeat-x bottom left; /*background:#94b9e8  no-repeat right;*/ }
+#nav li a.submenu:hover {background:url(../images/bar/silverbarRO.gif) repeat-x bottom left; /*background:#536895  no-repeat right;*/}
+#nav li ul a.submenu {background:#94b9e8  no-repeat right;}
+#nav li ul a.submenu:hover {background:#536895  no-repeat right;}
+
